@@ -1,0 +1,55 @@
+# ====================================
+# 📦 COMMON: GitHub recommended
+# ====================================
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies (Node.js)
+node_modules/
+.pnp/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Python - FastAPI backend
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Puppeteer PDF temp files
+temp/
+*.pdf
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+
+# Production build
+/build
+
+# System files
+.DS_Store
+*.pem
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files
+.env*
+.envrc
+
+# Vercel deploy
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
