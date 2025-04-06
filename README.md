@@ -50,13 +50,6 @@ npm install
 # you'll need a Node script like generate-pdf.js (not yet included)
 ```
 
-## To Do
-
-- [ ] Connect frontend → backend PDF API  
-- [ ] Add GPT-based content enhancement  
-- [ ] Implement multiple portfolio templates  
-- [ ] Save/load portfolio drafts from DB
-
 ## License
 
 MIT
