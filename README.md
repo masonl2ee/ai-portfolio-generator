@@ -34,6 +34,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ```bash
 cd backend
+conda create -n portfolio-api python=3.10 -y
 conda activate portfolio-api  # or source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
